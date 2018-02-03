@@ -70,7 +70,7 @@ theme: navi
 # Deployment
 # Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: rsync
+- type: rsync
   host: 112.74.165.89
   user: root
   root: /data/blog/public
@@ -78,7 +78,8 @@ deploy:
   delete: true
   verbose: true
   ignore_errors: false
-# deploy:
-#   type: git
-#   repo: https://github.com/magicianShiro/magicianShiro.github.io.git
-#   branch: master
+- type: git
+  repo: https://github.com/magicianShiro/magicianShiro.github.io.git
+  branch: master
+  name: magicianShiro
+  email: navi@movom.cc
