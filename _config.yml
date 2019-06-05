@@ -70,14 +70,14 @@ theme: navi
 # Deployment
 # Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: rsync
-  host: 112.74.165.89
-  user: root
-  root: /data/blog/public
-  port: 22
-  delete: true
-  verbose: true
-  ignore_errors: false
+# - type: rsync
+#   host: 112.74.165.89
+#   user: root
+#   root: /data/blog/public
+#   port: 22
+#   delete: true
+#   verbose: true
+#   ignore_errors: false
 - type: git
   repo: https://github.com/magicianShiro/magicianShiro.github.io.git
   branch: master
